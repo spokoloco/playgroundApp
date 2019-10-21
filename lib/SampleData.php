@@ -10,6 +10,12 @@ class SampleData {
         ["ToDo" => "Take Out the Trash", "completed" => 1],
         ["ToDo" => "Seize the Day", "completed" => 0]
     ];
+    private $data_Person = [
+        ["name" => "John", "color" => "red", "email" => "email@email.email", "number" => 3],
+        ["name" => "Jane", "color" => "yellow", "email" => "email@email.email", "number" => 2],
+        ["name" => "Sally", "color" => "blue", "email" => "email@email.email", "number" => 3]
+    ];
+    
     public function __construct($dataType) {
         $this->dataType = $dataType;
     }
